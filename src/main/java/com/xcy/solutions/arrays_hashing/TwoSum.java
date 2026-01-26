@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.function.BiConsumer;
 
 /**
- * Two Sum
+ * 1. Two Sum
  *
  * Approach:
  * - Iterate over array once, treating each element as the "second" number of the pair.

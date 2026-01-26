@@ -74,9 +74,9 @@ public class CoinChange {
      * Space Complexity: O(amount)
      */
     public int coinChangeOptimized(int[] coins, int amount) {
-        int maxVal = amount + 1;
+
         int[] dp = new int[amount + 1];
-        Arrays.fill(dp, maxVal);
+        Arrays.fill(dp, amount+1);
         dp[0] = 0;
 
         // Sort coins to enable early termination

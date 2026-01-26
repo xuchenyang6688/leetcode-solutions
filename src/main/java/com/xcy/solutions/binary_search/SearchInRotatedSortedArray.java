@@ -28,6 +28,7 @@ public class SearchInRotatedSortedArray {
      *
      * Key Insight: In a rotated sorted array, at least one half (left or right of mid)
      * will always be sorted. We can use this property to decide where to search.
+     * (Move left or right to mid + 1 or mid -1)
      *
      * Time Complexity: O(log n) - standard binary search with constant-time decisions
      * Space Complexity: O(1) - only using pointers, no extra data structures
