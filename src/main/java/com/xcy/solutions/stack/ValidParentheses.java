@@ -38,6 +38,7 @@ public class ValidParentheses {
         for (int i=0; i<length; i++){
             char character = s.charAt(i);
             if (parenthesesMap.containsKey(character)){
+                // Attention: stack.isEmpty condition
                 if (stack.isEmpty() || !stack.peek().equals(parenthesesMap.get(character))){
                     return false;
                 }

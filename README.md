@@ -19,8 +19,19 @@ binary_search
 - SearchInRotatedSortedArray: Difficult
 - FindMinimumInRotatedSortedArray: Difficult
 
+heap
+- TopKFrequentElements: Medium
 design
-- LRUCache
+- LRUCache: Medium
+stack
+- ValidParentheses: Easy
+
+sliding_window
+- SlidingWindowMaximum: Difficult
+two_pointers
+- ThreeSum: Difficult
+
+
 
 
 

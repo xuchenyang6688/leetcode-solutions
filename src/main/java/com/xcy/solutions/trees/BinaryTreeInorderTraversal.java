@@ -51,6 +51,7 @@ public class BinaryTreeInorderTraversal {
         Deque<TreeNode> stack = new ArrayDeque<>();
         TreeNode current = root;
 
+        // Attention: This while condition
         while (current != null || !stack.isEmpty()) {
             // Go as deep left as possible
             while (current != null) {
