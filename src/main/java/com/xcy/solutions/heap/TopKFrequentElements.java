@@ -67,7 +67,7 @@ public class TopKFrequentElements {
         // Step 3: Extract results from heap
         int[] ans = new int[k];
         for (int i=0; i<k; i++){
-            ans[i] = minHeap.poll()[0];
+            ans[i] = minHeap.poll()[0]; //Attention: index 0
         }
         return ans;
     }
