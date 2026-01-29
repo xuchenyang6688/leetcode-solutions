@@ -25,47 +25,7 @@ public class FindKthLargestInteger {
      * @return
      */
     public int findKth (int[] a, int n, int K) {
-        return findKth(a, 0, n-1, K);
-
+        return 0;
     }
-
-    private int findKth(int[] a, int start, int end, int K){
-//        if(start == end && K == 1){
-//            return a[start];
-//        }
-//
-//        int pivot = -1;
-//        while (start<end){
-//            if (a[start]>= a[pivot]){
-//                start++;
-//            }else{
-//
-//                while (end>start && a[end]<a[pivot]){
-//                    end --;
-//                }
-//
-//                if(start != end) {
-//                    int temp = a[start];
-//                    a[start] = a[end];
-//                    a[end] = temp;
-//                    start ++;
-//                }
-//            }
-//
-//
-//        }
-//
-//        // start == end
-//        int temp = a [start];
-//        a[start] = a[pivot];
-//        a[pivot] = temp;
-//        if (start +1 <=K){
-//            findKth(a, 0, start, K);
-//        }else{
-//            findKth(a, start+1, end-1, K-(start+1));
-//        }
-//
-    }
-
 
 }

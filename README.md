@@ -21,6 +21,7 @@ binary_search
 
 heap
 - TopKFrequentElements: Medium
+- SmallestKInArray: Easy
 design
 - LRUCache: Medium
 stack
